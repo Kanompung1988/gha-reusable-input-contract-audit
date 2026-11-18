@@ -18,7 +18,7 @@ python scripts/audit.py examples/review/.github/workflows --json
 python -m unittest discover -s tests -v
 ```
 
-Exit 0 clean (or review-only with default threshold), 2 errors, 1 input failure. Use `--fail-on review` to gate all findings; `--fail-on never` for informational-only. JSON contains code, file, job, severity, and advice. All fixtures are synthetic.
+Exit 0 clean (or review-only with default threshold), 2 errors, 1 input failure. Use `--fail-on review` to gate all findings; `--fail-on never` for informational-only. JSON contains code, file, job, severity, and message. All fixtures are synthetic.
 
 ## Claude Code and Codex
 
